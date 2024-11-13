@@ -1,10 +1,10 @@
 {
   "id": "bahmni.appointments",
-  "description": "Bahmni Appointments Scheduling App",
+  "description": "OOSMC Appointments Scheduling App",
   "extensionPoints": [
     {
       "id": "org.bahmni.appointments",
-      "description": "Bahmni Admin Page"
+      "description": "OOSMC Admin Page"
     }
   ],
   "config": {
@@ -15,8 +15,8 @@
     "startOfWeek": "Monday",
     "calendarSlotDuration": "00:30",
     "calendarSlotLabelInterval": "01:00",
-    "startOfDay":"09:00",
-    "endOfDay":"19:00",
+    "startOfDay": "09:00",
+    "endOfDay": "19:00",
     "printListViewTemplateUrl": "/bahmni_config/openmrs/apps/appointments/printListView.html",
     "enableServiceTypes": false,
     "enableCalendarView": true,
@@ -57,7 +57,7 @@
     "recurrence": {
       "defaultNumberOfOccurrences": 10
     },
-    "additionalInfoColumns": {"Language": "English"},
+    "additionalInfoColumns": { "Language": "English" },
     "enableAppointmentStatusOption": true,
     "enableDetailedSummaryView": true
   }
