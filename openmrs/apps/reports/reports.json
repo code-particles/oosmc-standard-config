@@ -21,9 +21,10 @@
       ]
     }
   },
-  "observationsRepor": {
+  "observationsReport": {
     "name": "Observations Report",
     "type": "observations",
+    "requiredPrivilege": "app:reports",
     "config": {
       "patientAttributes": [
         "caste",
