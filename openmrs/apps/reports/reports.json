@@ -12,11 +12,6 @@
         "Visit Status",
         "Admission Status"
       ],
-      "patientAddresses": [
-        "county_district",
-        "city_village",
-        "state_province"
-      ],
       "applyDateRangeFor": "visitStopDate",
       "visitTypesToFilter": [
         "PHARMACY VISIT",
@@ -24,6 +19,36 @@
         "IPD",
         "EMERGENCY"
       ]
+    }
+  },
+  "observationsRepor": {
+    "name": "Observations Report",
+    "type": "observations",
+    "config": {
+      "patientAttributes": [
+        "caste",
+        "class",
+        "education",
+        "occupation",
+        "primaryContact"
+      ],
+      "visitAttributes": ["Visit Status", "Admission Status"],
+      "showVisitInfo": true,
+      "showProvider": true,
+      "programsToFilter": [],
+      "conceptNamesToFilter": [],
+      "conceptValuesToFilter": [],
+      "conceptClassesToFilter": [],
+      "locationTagsToFilter": ["Login Location"],
+      "applyDateRangeFor": "obsDate",
+      "encounterPerRow": false,
+      "forDataAnalysis": true,
+      "visitTypesToFilter": ["PHARMACY VISIT", "OPD"],
+      "excludeColumns": ["Patient Name"],
+      "additionalPatientIdentifiers": ["National Id"],
+      "ignoreEmptyValues": false,
+      "conceptNameDisplayFormat": "shortNamePreferred",
+      "ageGroupName": "Age group name"
     }
   },
   "formBuilderReport": {
